@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://localhost:5000',
+      target: 'https://mern-back-rx3h.onrender.com',
       changeOrigin: true,
     })
   );
